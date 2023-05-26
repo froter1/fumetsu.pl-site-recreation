@@ -62,3 +62,23 @@ svg {
 svg:hover {
     color: #7289DA;
 }
+
+.dropdown-icon:hover .dropdown {
+    display: flex;
+}
+
+.dropdown {
+    position: absolute;
+    transform: translateX(-6rem);
+    display: none;
+    background-color: #23262E;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+.dropdown div {
+    gap: 0.5rem;
+}
+
+.dropdown div a {
+    font-weight: lighter;
+}
