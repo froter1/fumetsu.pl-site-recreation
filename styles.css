@@ -1,9 +1,21 @@
 html {
     box-sizing: border-box;
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #dbdbdb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -19,4 +31,34 @@ body {
 .wrapper-row {
     display: flex;
     flex-direction: row;
+}
+
+nav {
+    background-color: #141414;
+    padding: 0.70rem 3rem 0.70rem 2rem;
+    justify-content: space-between;
+}
+
+nav > ul {
+    align-items: center;
+    gap: 1rem;
+}
+
+nav > ul li {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav > ul li a:hover {
+    color: #7289DA;
+}
+
+svg {
+    width:15px; 
+    height: 15px;
+    color: white;
+}
+
+svg:hover {
+    color: #7289DA;
 }
