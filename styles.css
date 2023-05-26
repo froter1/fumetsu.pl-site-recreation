@@ -1,10 +1,11 @@
 html {
     box-sizing: border-box;
-    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
+    color: #dbdbdb;
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a, a:visited, a:hover, a:active {
@@ -55,13 +56,12 @@ nav > ul li a:hover {
     color: #7289DA;
 }
 
-svg {
+nav > ul li svg {
     width:15px; 
     height: 15px;
-    color: white;
 }
 
-svg:hover {
+nav > ul li a svg path:hover {
     color: #7289DA;
 }
 
@@ -85,7 +85,106 @@ svg:hover {
     font-weight: lighter;
 }
 
-.banner {
+.banner img {
+    max-width: 100%;
+}
+
+main {
+    background-color: #1B2021;
+    padding: 2em 10% ;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight: normal;
+    align-self: center;
+}
+
+.left {
+    flex: 1 1 auto;
+    max-width: 67%;
+}
+
+.cards {
+    gap: 2rem;
+}
+
+.card {
+    background-color:#23262E;
+    flex: 0 0 auto;
+    max-width: 100%;
+    padding: 0.75rem;
+    gap: 2rem;
+}
+
+.text {
+    gap: 1rem;
+    flex: 1;
+}
+
+.big {
+    font-size: 1.5rem;
+}
+
+button {
     flex: 0 1 0;
-    max-width: 100vw;
+    max-width: fit-content;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #dbdbdb;
+    font-size: 1.05rem;
+    border-radius: 4px;
+    padding: 0.3rem 0.8rem;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+
+.right {
+    background-color: #23262E;
+    flex: 1 1 auto;
+    max-width: 32%;
+    max-height: 100vh;
+    padding: 0.5rem 0;
+    gap: 0.75rem;
+}
+
+.facebook, .discord, .time, .harm{
+    flex: 0 1 0;
+    background-color: #3C5A99;
+    padding: 1rem;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook span, .discord span{
+    font-size: 1.5rem;
+}
+
+.discord {
+    background-color: #2C2F33;
+}
+
+.time, .harm  {
+    background-color: inherit;
+    font-size: 1.3rem;
+    padding-bottom: 0;
+}
+
+.harm {
+    padding-top: 0;
+    font-size: 1.7rem;
+}
+
+.harm span {
+    color: #667ac1;;
+}
+
+.right svg {
+    height: 1.5rem;
+    width: 1.5rem;
 }
