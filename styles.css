@@ -89,6 +89,10 @@ nav > ul li a svg path:hover {
     max-width: 100%;
 }
 
+.b-hov:hover {
+    opacity: .8;
+}
+
 main {
     background-color: #1B2021;
     padding: 2em 10% ;
@@ -165,7 +169,7 @@ button {
     font-size: 1.5rem;
 }
 
-.r-hov:hover{
+.r-hov:hover {
    background-color: #7289DA;
    opacity: .8;
 }
