@@ -127,6 +127,7 @@ h2 {
     padding: 0.75rem;
     gap: 2rem;
     flex-wrap: wrap;
+    position: relative;
 }
 
 .card img {
@@ -155,6 +156,13 @@ button {
     padding: 0.3rem 0.8rem;
     align-self: flex-end;
     justify-self: flex-end;
+}
+
+.card-date {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.3rem;
+    font-size: 0.75rem;
 }
 
 
