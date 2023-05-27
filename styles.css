@@ -74,6 +74,10 @@ nav > ul li a svg path:hover {
     transform: translateX(-6rem);
     display: none;
     background-color: #23262E;
+}
+
+.dropdown a {
+    background-color: #23262E;
     padding: 0.5rem 2rem 0.5rem 0.5rem;
 }
 
