@@ -99,7 +99,7 @@ nav > ul li a svg path:hover {
 
 main {
     background-color: #1B2021;
-    padding: 2em 10% ;
+    padding: 2em 10% 4rem ;
     justify-content: space-between;
     gap: 7rem;
 }
@@ -131,7 +131,7 @@ h2 {
 
 .card img {
     flex: 0 1 auto;
-    align-self: center;
+    align-self: flex-start;
     min-width: 0;
 }
 
@@ -209,4 +209,40 @@ button {
 .right svg {
     height: 1.5rem;
     width: 1.5rem;
+}
+
+footer {
+    background-color: #161d1f;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.socials {
+    align-items: center;
+}
+
+.socials svg, .socials img {
+    width: 1.85rem; 
+    height: 1.85rem;
+}
+
+.socials a {
+    display: block;
+    padding: 0.65rem 0.65rem;
+}
+
+.foot-fb:hover {
+    background-color: #3C5A99;
+}
+
+.foot-dc:hover {
+    background-color: #2C2F33;
+}
+
+.foot-pa:hover {
+    background-color: #ed1b2d;
+}
+
+.legal {
+    align-items: center;
 }
