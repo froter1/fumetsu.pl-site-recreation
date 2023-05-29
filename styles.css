@@ -195,13 +195,6 @@ h2 {
     font-size: 0.75rem;
 }
 
-@media only screen and (max-width: 960px) {
-    .card-date {
-        display: none;
-    }
-}
-
-
 .right {
     background-color: #23262E;
     flex: 1 1 auto;
@@ -291,8 +284,12 @@ footer {
     align-items: center;
 }
 
-@media only screen and (max-width: 680px) {
-    .right, .legal {
+@media only screen and (max-width: 960px) {
+    .card-date {
+        display: none;
+    }
+
+    .right {
         display: none;
     }
 
@@ -308,16 +305,6 @@ footer {
         text-align: center;
     }
 
-    footer {
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
-
-    nav ul.wrapper-row{
-        display: none;
-    }
-
     .card {
         overflow: hidden;
         justify-content: center;
@@ -328,6 +315,23 @@ footer {
         flex-shrink:0;
         max-width:100%;
         max-height:100%
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+    .legal {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul.wrapper-row{
+        display: none;
     }
 
     .burger {
