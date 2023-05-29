@@ -184,8 +184,12 @@ h2 {
     
 }
 
-.card a.watch:hover {
+.card a.watch:hover{
     border-color: #2b4294;
+}
+
+.text a.big:hover {
+    color: #2b4294;
 }
 
 .card-date {
