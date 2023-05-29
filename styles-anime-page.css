@@ -75,6 +75,7 @@ h3 {
 .comments {
     align-self: center;
     min-width: 95%;
+    gap: 1rem;
 }
 
 hr {
@@ -86,6 +87,7 @@ hr {
     gap: 0.5rem;
     position: relative;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .text {
