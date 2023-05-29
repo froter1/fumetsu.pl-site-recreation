@@ -13,6 +13,7 @@ h3 {
 .anime-banner {
     max-height: 35vh;
     max-width: 100%;
+    position: relative;
 }
 
 .crop {
@@ -36,10 +37,6 @@ h3 {
     box-shadow: 10px 10px 20px black;
 }
 
-.rel {
-    position: relative;
-}
-
 .desc p {
     margin: 0.5rem;
     margin-left: 0;
@@ -56,6 +53,10 @@ h3 {
 
 .episodes li a {
     padding: 0.5rem 0;
+}
+
+.episodes li a span {
+    padding-right: 1rem;
 }
 
 .episodes li:nth-child(odd) {
@@ -104,7 +105,32 @@ hr {
 }
 
 @media only screen and (max-width:750px) {
+    .crop {
+        display: none;
+    }
+
+    .anime-banner {
+        justify-content: center;
+    }
+
+    .cover {
+        position: static;
+        box-shadow: none;
+        max-height: 100%;
+    }
+
+    h2 {
+        margin-top: 0.5rem;
+    }
+
     .comment-date {
         display: none;
     }
 } 
+
+@media only screen and (max-width:350px) {
+    .episodes li a {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
