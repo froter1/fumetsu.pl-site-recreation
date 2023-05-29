@@ -4,6 +4,12 @@ h2 {
     margin-bottom: 0;
 }
 
+h3 {
+    font-size: 1.3rem;
+    margin: 2rem 0;
+    font-weight: normal;
+}
+
 .anime-banner {
     max-height: 35vh;
     max-width: 100%;
@@ -64,3 +70,36 @@ h2 {
 .episodes li a:hover > * {
     color: #7289DA;
 }
+
+.comments {
+    align-self: center;
+    min-width: 95%;
+}
+
+hr {
+    border: 1px solid #23262E;
+    max-width: 100%;
+}
+
+.comment {
+    gap: 0.5rem;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.text {
+    gap: 0.5rem;
+}
+
+.comment img {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.comment-date {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.3rem;
+    font-size: 0.75rem;
+}
+
