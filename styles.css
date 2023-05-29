@@ -297,6 +297,10 @@ footer {
         display: none;
     }
 
+    .left {
+        max-width: 100%;
+    }
+
     main {
         justify-content: center;
     }
