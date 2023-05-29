@@ -36,4 +36,31 @@ h2 {
 
 .desc p {
     margin: 0.5rem;
+    margin-left: 0;
+}
+
+.episodes {
+    margin-top: 2rem;
+    min-width: 100%;
+}
+
+.title {
+    margin: auto auto;
+}
+
+.episodes li a {
+    padding: 0.5rem 0;
+}
+
+.episodes li:nth-child(odd) {
+    background-color: #23262E;
+}
+
+.episodes li:hover{
+    opacity: .8;
+}
+
+
+.episodes li a:hover > * {
+    color: #7289DA;
 }
