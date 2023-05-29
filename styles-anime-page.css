@@ -103,3 +103,8 @@ hr {
     font-size: 0.75rem;
 }
 
+@media only screen and (max-width:750px) {
+    .comment-date {
+        display: none;
+    }
+} 
