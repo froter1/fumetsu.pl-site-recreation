@@ -1,0 +1,64 @@
+h2 {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+
+hr {
+    border: 1px solid white;
+    min-width: 100%;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 0.4rem;
+    font-size: 1rem;
+    color: black;
+}
+
+button {
+    flex: 0 1 0;
+    max-width: fit-content;
+    align-self: flex-start;
+    justify-self: flex-start;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #dbdbdb;
+    font-size: 1.05rem;
+    border-radius: 4px;
+    padding: 0.3rem 0.8rem;
+    margin: 0.5rem 0 1rem;
+}
+
+button:hover{
+    border-color: #2b4294;
+}
+
+.left {
+    align-items: flex-start;
+}
+
+.left span > a:hover {
+    color: #2b4294;
+}
+
+.left span {
+    align-self: flex-end;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+body > div {
+    min-height: 100vh;
+}
+
+@media only screen and (max-width:300px) {
+    form input {
+        width: 100%;
+    }
+} 
